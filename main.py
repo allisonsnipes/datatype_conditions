@@ -1,16 +1,13 @@
-# This is a sample Python script.
+x_string = input("enter the 1st number:\n")
+y_string = input("enter the 2nd number:\n")
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+x = int(x_string)
+y = int(y_string)
 
+print("the concatination is:", x_string+y_string)
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+print(f'the sum is: {x+y}')
+print(f'the difference is: {x-y}')
+print(f'the multiplication is: {x*y}')
+print(f'the division is: {x/y}')
+print(f'the modulo is: {x%y}')
